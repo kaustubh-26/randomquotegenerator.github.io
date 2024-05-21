@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quote-container {
+  @apply bg-white h-auto m-auto items-center justify-center px-[40px] py-[50px] rounded-[3px];
+}
+
+.quote {
+  @apply text-center w-[450px] h-auto clear-both font-medium text-[1.75em];
+}
+
+.sharelink {
+  @apply px-3 py-2 rounded w-[40px] float-left;
+}
+
+.action-btn {
+  @apply px-4 py-2 rounded;
+}
